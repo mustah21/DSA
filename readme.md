@@ -6,21 +6,24 @@ A collection of Python implementations covering core data structures and algorit
 
 ## 🗂️ Contents
 
-| File | Topic |
-|------|-------|
-| `01.Algorithms.py` | Arrays & memory management (`ReservedMemory`, `IntArray`) |
-| `02.SinglyLinkedList.py` | Singly Linked Lists |
-| `03.DoublyLinkedLists.py` | Doubly Linked Lists |
-| `04.Stacks.py` | Stacks |
-| `05.Check_balance.py` | Bracket/parenthesis balance checking |
-| `06.Queues.py` | Queues (array-based) |
-| `07.NodeBasedQueue.py` | Queues (node/pointer-based) |
-| `08.BST.py` | Binary Search Trees |
-| `09.Detach.py` | Node detachment utilities |
-| `10.Hashing.py` | Hash tables & hashing |
-| `11.Graphs.py` | Graph representations & traversal |
-| `12.PriorityQueues.py` | Priority Queues / Heaps |
-| `13.Search.py` | Search algorithms |
+| File                      | Topic                                                     |
+|---------------------------|-----------------------------------------------------------|
+| `01.Algorithms.py`        | Arrays & memory management (`ReservedMemory`, `IntArray`) |
+| `02.SinglyLinkedList.py`  | Singly Linked Lists                                       |
+| `03.DoublyLinkedLists.py` | Doubly Linked Lists                                       |
+| `04.Stacks.py`            | Stacks                                                    |
+| `05.Check_balance.py`     | Bracket/parenthesis balance checking                      |
+| `06.Queues.py`            | Queues (array-based)                                      |
+| `07.NodeBasedQueue.py`    | Queues (node/pointer-based)                               |
+| `08.BST.py`               | Binary Search Trees                                       |
+| `09.Detach.py`            | Node detachment utilities                                 |
+| `10.Hashing.py`           | Hash tables & hashing                                     |
+| `11.Graphs.py`            | Graph representations & traversal                         |
+| `12.PriorityQueues.py`    | Priority Queues / Heaps                                   |
+| `13.Search.py`            | Search algorithms                                         |
+| `14.InsertionSort.py`     | Sorting algorithms (SelectionSort also included)          |
+| `15.HeapSort.py`          | Sorting algorithms                                        |
+| `16.MergeSort.py`         | Merge Sorting array examples                              |
 
 ---
 
