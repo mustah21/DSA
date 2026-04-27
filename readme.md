@@ -23,7 +23,7 @@ A collection of Python implementations covering core data structures and algorit
 | `13.Search.py`            | Search algorithms                                         |
 | `14.InsertionSort.py`     | Sorting algorithms (SelectionSort also included)          |
 | `15.HeapSort.py`          | Sorting algorithms                                        |
-| `16.MergeSort.py`         | Merge Sorting array examples                              |
+| `16.MergeSort.py`         | Merge Sorting and optimized tabulation fibonacci          |
 
 ---
 
