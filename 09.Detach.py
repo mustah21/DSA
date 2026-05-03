@@ -76,45 +76,60 @@ class Tree():
                 current = current._right_child
         return None
 
+    # def _detach_node(self, node):
+    #     """
+    #     Detach a node from the tree. Node to be detached has one child at most.
+    #     An error will be raised otherwise.
+    #     """
+    #
+    #     parent = node._parent
+    #     child_right = node._right_child
+    #     child_left = node._left_child
+    #
+    #     if child_left and child_right:
+    #         raise ValueError("Node has two children")
+    #
+    #     if parent is None:
+    #         if child_left:
+    #             self._root_node = child_left
+    #             child_left._parent = None
+    #         else:
+    #             self._root_node = child_right
+    #             if child_right:
+    #                 child_right._parent = None
+    #         return
+    #
+    #     if node is parent._left_child:
+    #         if child_left:
+    #             parent._left_child = child_left
+    #             child_left._parent = parent
+    #         else:
+    #             parent._left_child = child_right
+    #
+    #
+    #     if node is parent._right_child:
+    #         if child_right:
+    #             parent._right_child = child_right
+    #             child_right._parent = parent
+    #         else:
+    #             parent._right_child = child_left
+
     def _detach_node(self, node):
-        """
-        Detach a node from the tree. Node to be detached has one child at most.
-        An error will be raised otherwise.
-        """
-
-        parent = node._parent
-        child_right = node._right_child
-        child_left = node._left_child
-
-        if child_left and child_right:
+        if node._left_child and node._right_child:
             raise ValueError("Node has two children")
 
-        if parent is None:
-            if child_left:
-                self._root_node = child_left
-                child_left._parent = None
-            else:
-                self._root_node = child_right
-                if child_right:
-                    child_right._parent = None
-            return
+        # Pick whichever child exists (or None)
+        child = node._left_child or node._right_child
 
-        if node is parent._left_child:
-            if child_left:
-                parent._left_child = child_left
-                child_left._parent = parent
-            else:
-                parent._left_child = child_right
+        if child:
+            child._parent = node._parent
 
-
-        if node is parent._right_child:
-            if child_right:
-                parent._right_child = child_right
-                child_right._parent = parent
-            else:
-                parent._right_child = child_left
-
-
+        if node._parent is None:
+            self._root_node = child
+        elif node is node._parent._left_child:
+            node._parent._left_child = child
+        else:
+            node._parent._right_child = child
 
 tree = Tree()
 tree.insert(50)

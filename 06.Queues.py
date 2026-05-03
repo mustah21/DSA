@@ -80,10 +80,11 @@ class StackBasedQueue:
         self._size += 1
 
     def dequeue(self):
+        queueSize = len(self._InboundStack) # equivalent to self._InboundStack._size
         if self._size == 0:
             return None
         if self._OutboundStack.peek() is None:
-            for _ in range(self._InboundStack._size):
+            for _ in range(queueSize):
                 y = self._InboundStack.pop()
                 self._OutboundStack.push(y)
 
