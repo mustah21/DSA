@@ -21,7 +21,7 @@ A collection of Python implementations covering core data structures and algorit
 | `11.Graphs.py`            | Graph representations & traversal                         |
 | `12.PriorityQueues.py`    | Priority Queues / Heaps                                   |
 | `13.Search.py`            | Search algorithms                                         |
-| `14.InsertionSort.py`     | Sorting algorithms (SelectionSort also included)          |
+| `14.InsertionSort.py`     | Sorting algorithms                                        |
 | `15.HeapSort.py`          | Sorting algorithms                                        |
 | `16.MergeSort.py`         | Merge Sorting and optimized tabulation fibonacci          |
 
