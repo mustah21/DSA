@@ -53,6 +53,9 @@ class SinglyLinkedList:
 
         Parameters: None
 
+        Previous_node.next removes the pointer from the second last node to the last node in the pop operation.
+        The list now ends at previous_node, and we can simply remove the last node's data using the del
+
         Returns:
             The content of the removed node. If list is empty, returns None
         """
