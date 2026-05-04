@@ -1,26 +1,26 @@
-# def breadth_first_traversal(self):
-#     values = []
-#     # Use a queue to store nodes to traverse
-#     queue = Queue()
-#
-#     # Start by enqueuing the Root node
-#     queue.enqueue(self._root_node)
-#
-#     # Continue while there is a node in the queue
-#     while node := queue.dequeue():
-#         # Save the value of the node
-#         values.append(node.data)
-#
-#         # Enqueue the left child
-#         if node._left_child:
-#         queue.enqueue(node._left_child)
-#
-#         # Enqueue the right child
-#         if node._right_child:
-#             queue.enqueue(node._right_child)
-#
-#     # Return values
-#     return values
+def breadth_first_traversal(self):
+    values = []
+    # Use a queue to store nodes to traverse
+    queue = Queue()
+
+    # Start by enqueuing the Root node
+    queue.enqueue(self._root_node)
+
+    # Continue while there is a node in the queue
+    while node := queue.dequeue():
+        # Save the value of the node
+        values.append(node.data)
+
+        # Enqueue the left child
+        if node._left_child:
+        queue.enqueue(node._left_child)
+
+        # Enqueue the right child
+        if node._right_child:
+            queue.enqueue(node._right_child)
+
+    # Return values
+    return values
 
 
 # this file is purely for my use this code is incomplete
