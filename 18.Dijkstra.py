@@ -7,7 +7,6 @@ def dijkstra_shortest_path(source_vertex, destination_vertex, graph):
         vertex: {'shortest': float('inf'), 'previous': None}
         for vertex in unvisited_vertices
     }
-
     # Initialize the source vertex path distance as 0.
     shortest_path_table[source_vertex]['shortest'] = 0
 

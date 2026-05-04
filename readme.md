@@ -24,6 +24,8 @@ A collection of Python implementations covering core data structures and algorit
 | `14.InsertionSort.py`     | Sorting algorithms                                        |
 | `15.HeapSort.py`          | Sorting algorithms                                        |
 | `16.MergeSort.py`         | Merge Sorting and optimized tabulation fibonacci          |
+| `17.BFS_DFS.py`           | Incomplete BFS and DFS                                    |
+| `17.Dijkstra.py`          | Representation of Dijkstra algorithm                      |
 
 ---
 
