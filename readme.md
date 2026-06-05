@@ -1,10 +1,10 @@
-# 📚 DSA – Data Structures & Algorithms in Python
+# DSA – Data Structures & Algorithms in Python
 
 A collection of Python implementations covering core data structures and algorithms, built from the ground up with a focus on understanding how things work under the hood.
 
 ---
 
-## 🗂️ Contents
+## Contents
 
 | File                      | Topic                                                     |
 |---------------------------|-----------------------------------------------------------|
@@ -29,7 +29,7 @@ A collection of Python implementations covering core data structures and algorit
 
 ---
 
-## 🔍 Highlights
+## Highlights
 
 - **Low-level memory management** — `01.Algorithms.py` implements a raw `ReservedMemory` class using Python's `ctypes`, then builds an integer array on top of it with support for append, pop, insert, remove, and search.
 - **Linked structures** — both singly and doubly linked list variants with full node manipulation.
@@ -38,7 +38,7 @@ A collection of Python implementations covering core data structures and algorit
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Python 3.x (no external dependencies)
 
