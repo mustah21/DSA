@@ -40,7 +40,7 @@ A collection of Python implementations covering core data structures and algorit
 
 ## Getting Started
 
-**Requirements:** Python 3.x (no external dependencies)
+**Requirements:** Python 3.x (no external dependencies, no python libraries)
 
 ```bash
 # Clone the repo
